@@ -44,7 +44,14 @@ public extern void Dispatch(
 
 ```C#
 ComputeShader raymarching;
+RenderTexture source
+raymarching.SetTexture (0, "Source", source);
 int threadGroupsX = Mathf.CeilToInt (cam.pixelWidth / 8.0f);//cam.pixelWidth 相机的像素宽度(不考虑动态分辨率缩放)(只读)。
 int threadGroupsY = Mathf.CeilToInt (cam.pixelHeight / 8.0f);//Mathf.CeilToInt(f) 返回大于或等于f的最小整数。
 raymarching.Dispatch (0, threadGroupsX, threadGroupsY, 1);
+```
+## Graphics.Blit ##
+使用着色器将源纹理复制到目标渲染纹理中。
+```C++
+Graphics.Blit (target, destination);
 ```
