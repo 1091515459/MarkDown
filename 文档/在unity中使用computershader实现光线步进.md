@@ -29,6 +29,20 @@ void ***(int3 groupThreadID : SV_GroupThreadID, // 组内线程ID，这里的范
 
 ## Dispatch 执行计算着色器。 ##
 ```C#
+/// <param name="kernelIndex">执行哪个内核。单个计算着色器资产可以有多个内核入口点。</param>
+/// <param name="threadGroupsX">X维度中的工作组数量。</param>
+/// <param name="threadGroupsY">Y维度中的工作组数量。</param>
+/// <param name="threadGroupsZ">Z维度中的工作组数量。</param>
+[NativeName("DispatchComputeShader")]
+[MethodImpl(MethodImplOptions.InternalCall)]
+public extern void Dispatch(
+  int kernelIndex,
+  int threadGroupsX,
+  int threadGroupsY,
+  int threadGroupsZ);
+```
+
+```C#
 ComputeShader raymarching;
 int threadGroupsX = Mathf.CeilToInt (cam.pixelWidth / 8.0f);
 int threadGroupsY = Mathf.CeilToInt (cam.pixelHeight / 8.0f);
