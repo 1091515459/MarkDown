@@ -82,6 +82,7 @@ _斜体_
 ```
 [链接](www.baidu.com)
 ![图片描述](http://www.image.com)
+<img src= "https://user-images.githubusercontent.com/33256117/174473185-259d20b7-5e6c-4aef-8239-dc88a6cdc540.png" width="50%" alt="图片描述">
 ```
 ## 代码段落
 \``` type
