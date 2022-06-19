@@ -25,7 +25,5 @@ void ***(int3 groupThreadID : SV_GroupThreadID, // 组内线程ID，这里的范
                 int3 dispatchThreadID : SV_DispatchThreadID) // 全局的调度线程ID，对于一个线程组内所有线程，该ID的y坐标应该一致
 
 ```
-<img src= "[https://www.image.com](https://user-images.githubusercontent.com/33256117/174475325-6cfbd2ca-bddf-4785-9089-344d1458aeba.png)" width="50%" alt="来自龙书">
-![Snipaste_2022-06-19_16-49-20](https://user-images.githubusercontent.com/33256117/174475476-3f6584ec-5506-454a-b26f-aebe840757ac.png)
 
 ##  ##
