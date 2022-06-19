@@ -27,4 +27,10 @@ void ***(int3 groupThreadID : SV_GroupThreadID, // 组内线程ID，这里的范
 ```
 <img src= "https://user-images.githubusercontent.com/33256117/174475524-b7c42be7-cd12-4806-b005-51e1a58e55c2.png" width="50%" alt="来自龙书">
 
-##  ##
+## Dispatch 执行计算着色器。 ##
+```C#
+ComputeShader raymarching;
+int threadGroupsX = Mathf.CeilToInt (cam.pixelWidth / 8.0f);
+int threadGroupsY = Mathf.CeilToInt (cam.pixelHeight / 8.0f);
+raymarching.Dispatch (0, threadGroupsX, threadGroupsY, 1);
+```
