@@ -44,7 +44,7 @@ public extern void Dispatch(
 
 ```C#
 ComputeShader raymarching;
-int threadGroupsX = Mathf.CeilToInt (cam.pixelWidth / 8.0f);
-int threadGroupsY = Mathf.CeilToInt (cam.pixelHeight / 8.0f);
+int threadGroupsX = Mathf.CeilToInt (cam.pixelWidth / 8.0f);//cam.pixelWidth 相机的像素宽度(不考虑动态分辨率缩放)(只读)。
+int threadGroupsY = Mathf.CeilToInt (cam.pixelHeight / 8.0f);//Mathf.CeilToInt(f) 返回大于或等于f的最小整数。
 raymarching.Dispatch (0, threadGroupsX, threadGroupsY, 1);
 ```
