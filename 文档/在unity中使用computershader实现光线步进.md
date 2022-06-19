@@ -1,6 +1,6 @@
 Use Computershader to implement RayMarching in Unity
 ====
-# 以下是用到的函数以及api #
+# 以下是涉及的api、名词、函数以及公式 #
 ## ComputeBuffer ##
 GPU数据缓冲区，主要用于计算着色器。
 
