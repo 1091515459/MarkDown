@@ -11,8 +11,30 @@
             "id": "e05604a7a403d206",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "文档/工作/UE/UE5 Nanite.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d3aa9a54df0afcd9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab50f1472ae22b06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "文档/工作/UE/UE5 Nanite.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "文档/工作/UE/UE5 Nanite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "文档/工作/UE/UE5 Nanite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "文档/工作/UE/UE5 Nanite.md"
+              }
             }
           },
           {
@@ -134,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,10 +175,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "75aae592df5d6bc4",
+  "active": "e05604a7a403d206",
   "lastOpenFiles": [
-    "文档/工作/UE/创建UE编辑器UMG窗口插件.md",
     "2023-01-29.md",
+    "文档/工作/UE/创建UE编辑器UMG窗口插件.md",
     "文档/工作/UE/UE 使用nodejs使物体实现碰撞条件.md",
     "文档/Excalidraw/Drawing 2023-01-28 15.22.06.excalidraw.md",
     "文档/工作/UE/UE5 Nanite.md",
