@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5b16020c162fc06a",
+        "id": "4778e1881b81ab4b",
         "type": "tabs",
         "children": [
           {
-            "id": "fdd2f93d5e7667d5",
+            "id": "e05604a7a403d206",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "文档/工作/UE/UE 使用nodejs使物体实现碰撞条件.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86d302f9232bbaa2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "文档/工作/UE/创建UE编辑器UMG窗口插件.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "文档/工作/UE/创建UE编辑器UMG窗口插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "文档/工作/UE/创建UE编辑器UMG窗口插件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "文档/工作/UE/创建UE编辑器UMG窗口插件.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,12 +129,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,17 +148,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "86d302f9232bbaa2",
+  "active": "75aae592df5d6bc4",
   "lastOpenFiles": [
+    "文档/工作/UE/创建UE编辑器UMG窗口插件.md",
+    "2023-01-29.md",
     "文档/工作/UE/UE 使用nodejs使物体实现碰撞条件.md",
     "文档/Excalidraw/Drawing 2023-01-28 15.22.06.excalidraw.md",
     "文档/工作/UE/UE5 Nanite.md",
-    "文档/工作/UE/创建UE编辑器UMG窗口插件.md",
     "文档/工作/在unity中使用computershader实现光线步进.md",
     "文档/工作/智能指针.md",
     "文档/工作/RenderTarget2DFormTexture2D.md",
     "文档/其他/计算机408各科目王道课程脑图.md",
-    "文档/随笔/unity 2022.1有什么新东西(what`s new).md",
-    "文档/工作/分型噪声.md"
+    "文档/随笔/unity 2022.1有什么新东西(what`s new).md"
   ]
 }
